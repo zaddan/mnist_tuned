@@ -1,0 +1,226 @@
+bin data dnn.c dnn.h doc main2.c main_3_layer.c main.c makefile README.md script_3_layer.py script_5_layer.py util wip
+****************START
+[1;1H[2JMNIST-DNN: A deep neural network for MNIST image recognition 
+
+Initializing network... 
+
+----------------------------------------------------------------------------------------------------
+Layer Index                    |        0       |        1       |        2       ||     TOTAL     |
+Layer Type                     |      INPUT     |  CONVOLUTIONAL |     OUTPUT     ||               |
+----------------------------------------------------------------------------------------------------
+Activation Function            |                |      RELU      |      RELU      ||               |
+Image Matrix (width x height)  |     28 x 28    |     13 x 13    |     10 x  1    ||               |
+Feature Maps (depth)           |        1       |        5       |        1       ||               |
+Filter Size                    |                |      5 x 5     |                ||               |
+Stride                         |                |        2       |                ||               |
+----------------------------------------------------------------------------------------------------
+Number of Nodes                |          784   |          845   |           10   ||        1639   |
+Number of Connections          |            0   |        21125   |         8450   ||       29575   |
+Number of Weights              |            0   |          125   |         8450   ||        8575   |
+Memory Size (bytes)            |        43944   |       509744   |       135800   ||      758136   |
+----------------------------------------------------------------------------------------------------
+
+learning rate: 0.000100
+
+Result: Correct=  7774  Incorrect=  2226  Accuracy=77.74%
+
+DONE! Total execution time: 88.0 sec
+
+****************INTERNAL_DONE
+****************DONE
+[1;1H[2JMNIST-DNN: A deep neural network for MNIST image recognition 
+
+Initializing network... 
+
+----------------------------------------------------------------------------------------------------
+Layer Index                    |        0       |        1       |        2       ||     TOTAL     |
+Layer Type                     |      INPUT     |  CONVOLUTIONAL |     OUTPUT     ||               |
+----------------------------------------------------------------------------------------------------
+Activation Function            |                |      RELU      |      RELU      ||               |
+Image Matrix (width x height)  |     28 x 28    |     13 x 13    |     10 x  1    ||               |
+Feature Maps (depth)           |        1       |        5       |        1       ||               |
+Filter Size                    |                |      5 x 5     |                ||               |
+Stride                         |                |        2       |                ||               |
+----------------------------------------------------------------------------------------------------
+Number of Nodes                |          784   |          845   |           10   ||        1639   |
+Number of Connections          |            0   |        21125   |         8450   ||       29575   |
+Number of Weights              |            0   |          125   |         8450   ||        8575   |
+Memory Size (bytes)            |        43944   |       509744   |       135800   ||      758136   |
+----------------------------------------------------------------------------------------------------
+
+learning rate: 0.000140
+
+Result: Correct=  8142  Incorrect=  1858  Accuracy=81.42%
+
+DONE! Total execution time: 94.0 sec
+
+****************INTERNAL_DONE
+****************DONE
+[1;1H[2JMNIST-DNN: A deep neural network for MNIST image recognition 
+
+Initializing network... 
+
+----------------------------------------------------------------------------------------------------
+Layer Index                    |        0       |        1       |        2       ||     TOTAL     |
+Layer Type                     |      INPUT     |  CONVOLUTIONAL |     OUTPUT     ||               |
+----------------------------------------------------------------------------------------------------
+Activation Function            |                |      RELU      |      RELU      ||               |
+Image Matrix (width x height)  |     28 x 28    |     13 x 13    |     10 x  1    ||               |
+Feature Maps (depth)           |        1       |        5       |        1       ||               |
+Filter Size                    |                |      5 x 5     |                ||               |
+Stride                         |                |        2       |                ||               |
+----------------------------------------------------------------------------------------------------
+Number of Nodes                |          784   |          845   |           10   ||        1639   |
+Number of Connections          |            0   |        21125   |         8450   ||       29575   |
+Number of Weights              |            0   |          125   |         8450   ||        8575   |
+Memory Size (bytes)            |        43944   |       509744   |       135800   ||      758136   |
+----------------------------------------------------------------------------------------------------
+
+learning rate: 0.000180
+
+Result: Correct=  8340  Incorrect=  1660  Accuracy=83.40%
+
+DONE! Total execution time: 95.0 sec
+
+****************INTERNAL_DONE
+****************DONE
+[1;1H[2JMNIST-DNN: A deep neural network for MNIST image recognition 
+
+Initializing network... 
+
+----------------------------------------------------------------------------------------------------
+Layer Index                    |        0       |        1       |        2       ||     TOTAL     |
+Layer Type                     |      INPUT     |  CONVOLUTIONAL |     OUTPUT     ||               |
+----------------------------------------------------------------------------------------------------
+Activation Function            |                |      RELU      |      RELU      ||               |
+Image Matrix (width x height)  |     28 x 28    |     13 x 13    |     10 x  1    ||               |
+Feature Maps (depth)           |        1       |        5       |        1       ||               |
+Filter Size                    |                |      5 x 5     |                ||               |
+Stride                         |                |        2       |                ||               |
+----------------------------------------------------------------------------------------------------
+Number of Nodes                |          784   |          845   |           10   ||        1639   |
+Number of Connections          |            0   |        21125   |         8450   ||       29575   |
+Number of Weights              |            0   |          125   |         8450   ||        8575   |
+Memory Size (bytes)            |        43944   |       509744   |       135800   ||      758136   |
+----------------------------------------------------------------------------------------------------
+
+learning rate: 0.000220
+
+Result: Correct=  8446  Incorrect=  1554  Accuracy=84.46%
+
+DONE! Total execution time: 92.0 sec
+
+****************INTERNAL_DONE
+****************DONE
+[1;1H[2JMNIST-DNN: A deep neural network for MNIST image recognition 
+
+Initializing network... 
+
+----------------------------------------------------------------------------------------------------
+Layer Index                    |        0       |        1       |        2       ||     TOTAL     |
+Layer Type                     |      INPUT     |  CONVOLUTIONAL |     OUTPUT     ||               |
+----------------------------------------------------------------------------------------------------
+Activation Function            |                |      RELU      |      RELU      ||               |
+Image Matrix (width x height)  |     28 x 28    |     13 x 13    |     10 x  1    ||               |
+Feature Maps (depth)           |        1       |        5       |        1       ||               |
+Filter Size                    |                |      5 x 5     |                ||               |
+Stride                         |                |        2       |                ||               |
+----------------------------------------------------------------------------------------------------
+Number of Nodes                |          784   |          845   |           10   ||        1639   |
+Number of Connections          |            0   |        21125   |         8450   ||       29575   |
+Number of Weights              |            0   |          125   |         8450   ||        8575   |
+Memory Size (bytes)            |        43944   |       509744   |       135800   ||      758136   |
+----------------------------------------------------------------------------------------------------
+
+learning rate: 0.000260
+
+Result: Correct=  8515  Incorrect=  1485  Accuracy=85.15%
+
+DONE! Total execution time: 95.0 sec
+
+****************INTERNAL_DONE
+****************DONE
+[1;1H[2JMNIST-DNN: A deep neural network for MNIST image recognition 
+
+Initializing network... 
+
+----------------------------------------------------------------------------------------------------
+Layer Index                    |        0       |        1       |        2       ||     TOTAL     |
+Layer Type                     |      INPUT     |  CONVOLUTIONAL |     OUTPUT     ||               |
+----------------------------------------------------------------------------------------------------
+Activation Function            |                |      RELU      |      RELU      ||               |
+Image Matrix (width x height)  |     28 x 28    |     13 x 13    |     10 x  1    ||               |
+Feature Maps (depth)           |        1       |        5       |        1       ||               |
+Filter Size                    |                |      5 x 5     |                ||               |
+Stride                         |                |        2       |                ||               |
+----------------------------------------------------------------------------------------------------
+Number of Nodes                |          784   |          845   |           10   ||        1639   |
+Number of Connections          |            0   |        21125   |         8450   ||       29575   |
+Number of Weights              |            0   |          125   |         8450   ||        8575   |
+Memory Size (bytes)            |        43944   |       509744   |       135800   ||      758136   |
+----------------------------------------------------------------------------------------------------
+
+learning rate: 0.000300
+
+Result: Correct=  8543  Incorrect=  1457  Accuracy=85.43%
+
+DONE! Total execution time: 90.0 sec
+
+****************INTERNAL_DONE
+****************DONE
+[1;1H[2JMNIST-DNN: A deep neural network for MNIST image recognition 
+
+Initializing network... 
+
+----------------------------------------------------------------------------------------------------
+Layer Index                    |        0       |        1       |        2       ||     TOTAL     |
+Layer Type                     |      INPUT     |  CONVOLUTIONAL |     OUTPUT     ||               |
+----------------------------------------------------------------------------------------------------
+Activation Function            |                |      RELU      |      RELU      ||               |
+Image Matrix (width x height)  |     28 x 28    |     13 x 13    |     10 x  1    ||               |
+Feature Maps (depth)           |        1       |        5       |        1       ||               |
+Filter Size                    |                |      5 x 5     |                ||               |
+Stride                         |                |        2       |                ||               |
+----------------------------------------------------------------------------------------------------
+Number of Nodes                |          784   |          845   |           10   ||        1639   |
+Number of Connections          |            0   |        21125   |         8450   ||       29575   |
+Number of Weights              |            0   |          125   |         8450   ||        8575   |
+Memory Size (bytes)            |        43944   |       509744   |       135800   ||      758136   |
+----------------------------------------------------------------------------------------------------
+
+learning rate: 0.000340
+
+Result: Correct=  8505  Incorrect=  1495  Accuracy=85.05%
+
+DONE! Total execution time: 90.0 sec
+
+****************INTERNAL_DONE
+****************DONE
+[1;1H[2JMNIST-DNN: A deep neural network for MNIST image recognition 
+
+Initializing network... 
+
+----------------------------------------------------------------------------------------------------
+Layer Index                    |        0       |        1       |        2       ||     TOTAL     |
+Layer Type                     |      INPUT     |  CONVOLUTIONAL |     OUTPUT     ||               |
+----------------------------------------------------------------------------------------------------
+Activation Function            |                |      RELU      |      RELU      ||               |
+Image Matrix (width x height)  |     28 x 28    |     13 x 13    |     10 x  1    ||               |
+Feature Maps (depth)           |        1       |        5       |        1       ||               |
+Filter Size                    |                |      5 x 5     |                ||               |
+Stride                         |                |        2       |                ||               |
+----------------------------------------------------------------------------------------------------
+Number of Nodes                |          784   |          845   |           10   ||        1639   |
+Number of Connections          |            0   |        21125   |         8450   ||       29575   |
+Number of Weights              |            0   |          125   |         8450   ||        8575   |
+Memory Size (bytes)            |        43944   |       509744   |       135800   ||      758136   |
+----------------------------------------------------------------------------------------------------
+
+learning rate: 0.000380
+
+Result: Correct=  8374  Incorrect=  1626  Accuracy=83.74%
+
+DONE! Total execution time: 90.0 sec
+
+****************INTERNAL_DONE
+****************DONE

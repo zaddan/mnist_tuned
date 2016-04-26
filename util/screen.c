@@ -133,7 +133,7 @@ char *getActivationTypeString(ActFctType at){
  * @param layerDefs A pointer to an array of layer definitions
  */
 
-void outputNetworkDefinition(int layerCount, LayerDefinition *layerDefs){
+void outputNetworkDefinition(int layerCount, LayerDefinition *layerDefs, float learningRate){
     
     
     printf("-------------------------------");
@@ -228,8 +228,10 @@ void outputNetworkDefinition(int layerCount, LayerDefinition *layerDefs){
     printf("-------------------------------");
     for (int i=0; i<layerCount;i++) printf("-----------------");
     printf("------------------\n\n");
-    
+     
+    printf("learning rate: %f\n", learningRate);
     
 }
+
 
 

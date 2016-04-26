@@ -76,7 +76,7 @@ void locateCursor(const int row, const int col);
  * @param layerDefs A pointer to an array of layer definitions
  */
 
-void outputNetworkDefinition(int layerCount, LayerDefinition *layerDefs);
+void outputNetworkDefinition(int layerCount, LayerDefinition *layerDefs, float);
 
 
 #endif
